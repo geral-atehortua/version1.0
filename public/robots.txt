@@ -1,0 +1,16 @@
+# Permitir a todos los bots rastrear el sitio
+User-agent: *
+Allow: /
+
+# Bloquear acceso a archivos privados
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://sitemaestrog.com/sitemap.xml
+
+# Rastreadores específicos
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
